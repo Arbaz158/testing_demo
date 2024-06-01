@@ -30,5 +30,5 @@ func main() {
 
 func HelloWorld(c *gin.Context) {
 	fmt.Println("Hello World")
-	c.JSON(http.StatusOK, gin.H{"message": "docker testing"})
+	c.JSON(http.StatusOK, gin.H{"message": "Hii Khushi How are you"})
 }
